@@ -14,7 +14,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let user of httpusers">
+    <tr *ngFor="let user of httpusers.slice(0,6)">
       <td>{{ user.id }}</td>
 
       <td>{{ user.name }}</td>
